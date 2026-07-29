@@ -460,8 +460,7 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
-
-<img width="436" height="287" alt="image" src="https://github.com/user-attachments/assets/7274fc87-cb98-4dc7-adb7-c78008ac4921" />
+<img width="406" height="140" alt="image" src="https://github.com/user-attachments/assets/0fa87b68-5b11-4e6f-95c5-746f77f0d104" />
 
 
 chmod 755 strcomp.sh
@@ -783,6 +782,7 @@ Khammam
 
 ## OUTPUT
 
+<img width="606" height="495" alt="image" src="https://github.com/user-attachments/assets/791dd0b2-ee26-4ee9-b275-ecf206cdff84" />
 
 cat forctype.sh 
 ```bash
@@ -796,6 +796,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+<img width="650" height="482" alt="image" src="https://github.com/user-attachments/assets/0d948d1a-2aaa-47e6-b4a4-0bee369f22f8" />
 
 cat forctype1.sh 
 ```bash
@@ -828,7 +829,8 @@ $ chmod 755 fornested1.sh
 $ ./fornested1.sh 
  ## OUTPUT
 
- 
+ <img width="552" height="537" alt="image" src="https://github.com/user-attachments/assets/1061b6e9-8d2d-4755-a0bb-57b4df1161b6" />
+
 cat forbreak.sh 
 ```bash
 #!/bin/bash
@@ -844,6 +846,7 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+<img width="713" height="193" alt="image" src="https://github.com/user-attachments/assets/e2071a22-3c82-4b86-82f1-5c8aba97e1d1" />
 
 $ chmod 755 forbreak.sh
  
@@ -869,7 +872,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ <img width="713" height="193" alt="image" src="https://github.com/user-attachments/assets/577cbde4-bc56-43bf-824f-a7e221514f38" />
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -896,11 +900,13 @@ $ chmod 755 exread1.sh
 
 ## OUTPUT
 
+<img width="717" height="140" alt="image" src="https://github.com/user-attachments/assets/f89c8902-f2d3-4696-bc69-4297ad38e00f" />
 
 
 $ ./exread1.sh 
  
 cat funcex.sh
+
 ```bash
 #!/bin/bash
 # trying to access script parameters inside a function
@@ -916,12 +922,13 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
- ./funcex.sh 
+ ./funcex.sh c
 
  
  ./funcex.sh 1 2
 
- 
+ <img width="387" height="197" alt="image" src="https://github.com/user-attachments/assets/f5208170-faff-4f01-8da8-20c2eb34d2bc" />
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -934,7 +941,8 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ <img width="477" height="195" alt="image" src="https://github.com/user-attachments/assets/a496cccb-98e0-4412-98e7-d13ef4cf7bad" />
+
  cat argshift1.sh
 ```bash
  #/bin/bash 
@@ -951,7 +959,8 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ <img width="418" height="175" alt="image" src="https://github.com/user-attachments/assets/dec7f242-6871-4931-bba2-5386953ce222" />
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -964,7 +973,8 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
- 
+ <img width="698" height="502" alt="image" src="https://github.com/user-attachments/assets/8d795304-8476-449e-94fb-f25f107171df" />
+
  
 cat > nc.awk
 ```bash
@@ -995,7 +1005,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ <img width="247" height="175" alt="image" src="https://github.com/user-attachments/assets/762b1f5f-e6bf-4533-8096-da1af0d04dc2" />
+
 cat > palindrome.sh
 ```bash
 #num=545
