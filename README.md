@@ -631,7 +631,7 @@ fi
 $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
-## OUTPUT
+
 
 
 # testing compound comparisons
@@ -648,6 +648,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+<img width="612" height="247" alt="image" src="https://github.com/user-attachments/assets/14733eeb-9937-4a16-811f-2e82d2a9b903" />
 
 # using the case command
 cat >casecheck.sh 
@@ -683,7 +684,8 @@ $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
  
- 
+ <img width="645" height="495" alt="image" src="https://github.com/user-attachments/assets/d5c4ae97-4b2c-4b5c-b201-1ba0d862a826" />
+
 cat untiltest.sh 
 ```bash
 \#using the until command
@@ -1021,6 +1023,7 @@ fi
 ```
 ## OUTPUT 
 
+<img width="592" height="612" alt="image" src="https://github.com/user-attachments/assets/ec25566a-9665-4a7d-8ba1-70afbaa1de78" />
 
 # RESULT:
 The Commands are executed successfully.
