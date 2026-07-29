@@ -43,11 +43,11 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
-
+/home/pragadeesh/Desktop/1.png
 
 cat < file2
 ## OUTPUT
-
+/home/pragadeesh/Desktop/2.png
 
 # Comparing Files
 cmp file1 file2
