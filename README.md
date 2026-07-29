@@ -23,13 +23,8 @@ Testing the commands for the desired output.
 # COMMANDS:
 ### Create the following files file1, file2 as follows:
 cat > file1
-```
-chanchal singhvi
-c.k. shukla
-s.n. dasgupta
-sumit chakrobarty
-^d
-```
+<img width="350" height="147" alt="Screenshot 2026-07-29 084058" src="https://github.com/user-attachments/assets/3288c760-67ba-44ef-a4b1-8b7dbcb595b6" />
+
 cat > file2
 ```
 anil aggarwal
