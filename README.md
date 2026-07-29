@@ -73,27 +73,27 @@ cat > file11
 <img width="481" height="331" alt="Screenshot 2026-07-29 084509" src="https://github.com/user-attachments/assets/22834a24-48af-4125-af08-252e16a1c123" />
 
 cat > file22
-```
-1001 | Ram | 10000 | HR
-1002 | tom |  5000 | Admin
-1003 | Joe |  7000 | Developer
-^d
-```
+<img width="457" height="160" alt="Screenshot 2026-07-29 085011" src="https://github.com/user-attachments/assets/4ff249fb-b8f3-43a1-9710-1850a724cd43" />
+
+
 
 
 cut -c1-3 file11
 ## OUTPUT
 
+<img width="416" height="120" alt="Screenshot 2026-07-29 085040" src="https://github.com/user-attachments/assets/a1eeb252-12fd-4f6b-a533-fc299d499d36" />
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
+<img width="343" height="145" alt="Screenshot 2026-07-29 085132" src="https://github.com/user-attachments/assets/8519c727-b80c-4061-9020-b0352d9fe83c" />
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+<img width="467" height="175" alt="Screenshot 2026-07-29 085156" src="https://github.com/user-attachments/assets/6b039c0a-cdfd-449e-9172-50c8b5b093cd" />
 
 
 cat < newfile 
@@ -408,19 +408,24 @@ cat < scriptest.sh
  
 ls file1
 ## OUTPUT
+<img width="330" height="76" alt="image" src="https://github.com/user-attachments/assets/d0d3cd06-5b61-4603-8f17-d20e3aec6140" />
 
 echo $?
 ## OUTPUT 
+<img width="355" height="77" alt="image" src="https://github.com/user-attachments/assets/b2a3cd8d-62b3-40ad-8325-6c28fa5b7895" />
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+ <img width="411" height="125" alt="image" src="https://github.com/user-attachments/assets/c3a4a685-4587-416b-844a-32305eb8e3da" />
+
 abcd
  
 echo $?
  ## OUTPUT
+<img width="435" height="152" alt="image" src="https://github.com/user-attachments/assets/8cd2421f-f245-415e-b53d-5cc352a5a2e7" />
 
 
  
@@ -439,6 +444,8 @@ echo "$val1 is less than $val2"
 fi
 ^d
 ```
+<img width="517" height="287" alt="image" src="https://github.com/user-attachments/assets/2d128d4f-2305-42c2-a87e-165617cb9e30" />
+
 
 cat strcomp.sh 
 ```bash
@@ -454,62 +461,31 @@ fi
 ```
 ##OUTPUT
 
+<img width="436" height="287" alt="image" src="https://github.com/user-attachments/assets/7274fc87-cb98-4dc7-adb7-c78008ac4921" />
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+<img width="622" height="165" alt="image" src="https://github.com/user-attachments/assets/2df4c953-371f-42af-8750-8ef35a96e3d4" />
 
 
 # check file ownership
 cat < psswdperm.sh 
-```bash
-\#!/bin/bash
-if [ -O /etc/passwd ]
-then
-echo “You are the owner of the /etc/passwd file”
-else
-echo “Sorry, you are not the owner of the /etc/passwd file”
-fi
-^d
-```
+<img width="627" height="302" alt="image" src="https://github.com/user-attachments/assets/77f2a609-f625-4714-a4e2-1879dd85fba1" />
+
 
 cat psswdperm.sh 
-```bash
-/#!/bin/bash
-if [ -O /etc/passwd ]
-then
-echo “You are the owner of the /etc/passwd file”
-else
-echo “Sorry, you are not the owner of the /etc/passwd file”
-fi
- ```
-./psswdperm.sh
+<img width="602" height="260" alt="image" src="https://github.com/user-attachments/assets/220c6d1b-d47f-4def-824a-3b9f4143a515" />
+
+
 ## OUTPUT
 
 # check if with file location
 cat>ifnested.sh 
-```bash
-\#!/bin/bash
-if [ -e $HOME ]
-then
-echo “$HOME The object exists, is it a file?”
-if [ -f $HOME ]
-then
-echo “Yes,$HOME it is a file!”
-else
-echo “No,$HOME it is not a file!”
-if [ -f $HOME/.bash_history ]
-then
-echo “But $HOME/.bash_history is a file!”
-fi
-fi
-else
-echo “Sorry, the object does not exist”
-fi
-^d
-```
+<img width="537" height="560" alt="image" src="https://github.com/user-attachments/assets/dcdd07dc-ba41-4e9e-883a-632ffd7b845d" />
+
 cat ifnested.sh 
 ```
 \#!/bin/bash
@@ -534,6 +510,7 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
+<img width="580" height="517" alt="image" src="https://github.com/user-attachments/assets/3860e0af-521d-4720-8230-e6a617f8d8ae" />
 
 
 # using numeric test comparisons
@@ -577,6 +554,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+<img width="626" height="175" alt="image" src="https://github.com/user-attachments/assets/93157c16-982b-4f63-98fd-be1ab3e21034" />
 
 # check if a file
 cat > ifnested.sh 
@@ -625,7 +603,7 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
+
 
 # looking for a possible value using elif
 cat elifcheck.sh 
