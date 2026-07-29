@@ -23,7 +23,13 @@ Testing the commands for the desired output.
 # COMMANDS:
 ### Create the following files file1, file2 as follows:
 cat > file1
-<img width="350" height="147" alt="Screenshot 2026-07-29 084058" src="https://github.com/user-attachments/assets/3288c760-67ba-44ef-a4b1-8b7dbcb595b6" />
+```
+anil aggarwal
+barun sengupta
+c.k. shukla
+lalit chowdury
+s.n. dasgupta
+```
 
 cat > file2
 ```
@@ -38,22 +44,25 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
-/home/pragadeesh/Desktop/1.png
+<img width="350" height="147" alt="Screenshot 2026-07-29 084058" src="https://github.com/user-attachments/assets/aa9043eb-22fe-413f-ae11-beb969edd5de" />
 
 cat < file2
 ## OUTPUT
-/home/pragadeesh/Desktop/2.png
+<img width="396" height="172" alt="Screenshot 2026-07-29 084108" src="https://github.com/user-attachments/assets/0fc9f8b4-32cd-469b-997d-d5a0ed3781a7" />
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ <img width="431" height="121" alt="Screenshot 2026-07-29 084343" src="https://github.com/user-attachments/assets/f21654b1-e6e3-4584-9442-e9fac09aa2a5" />
+
 comm file1 file2
  ## OUTPUT
+<img width="428" height="257" alt="Screenshot 2026-07-29 084434" src="https://github.com/user-attachments/assets/b5a9cacc-a611-4337-8b20-9b576634a99a" />
 
  
 diff file1 file2
 ## OUTPUT
+<img width="481" height="331" alt="Screenshot 2026-07-29 084509" src="https://github.com/user-attachments/assets/bba68334-97dc-48b7-9bed-4058ba8352ae" />
 
 
 #Filters
@@ -61,11 +70,8 @@ diff file1 file2
 ### Create the following files file11, file22 as follows:
 
 cat > file11
-```
-Hello world
-This is my world
-^d
-```
+<img width="481" height="331" alt="Screenshot 2026-07-29 084509" src="https://github.com/user-attachments/assets/22834a24-48af-4125-af08-252e16a1c123" />
+
 cat > file22
 ```
 1001 | Ram | 10000 | HR
