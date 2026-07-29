@@ -302,43 +302,34 @@ seq 3 | sed '2a hello'
 seq 2 | sed '2i hello'
 ## OUTPUT
 
+<img width="377" height="141" alt="image" src="https://github.com/user-attachments/assets/ad5076b7-2147-4ad9-867a-a10a457a81c7" />
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+<img width="407" height="123" alt="image" src="https://github.com/user-attachments/assets/a9cbae2d-b631-4902-8487-e11428eccb11" />
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
-
-
-sed -n '2,4{s/$/*/;p}' file23
+<img width="410" height="132" alt="image" src="https://github.com/user-attachments/assets/62552080-960b-425c-8285-a11eb6505f1b" />
 
 
 #Sorting File content
 cat > file21
-```
-1001 | Ram | 10000 | HR
-1002 | tom |  5000 | Admin
-1003 | Joe |  7000 | Developer
-1005 | Sam |  5000 | HR
-1004 | Sit |  7000 | Dev
-``` 
+<img width="413" height="188" alt="image" src="https://github.com/user-attachments/assets/7882bd10-b303-4a8f-9338-95ac8e252cd6" />
+
 sort file21
 ## OUTPUT
+<img width="481" height="210" alt="image" src="https://github.com/user-attachments/assets/65829362-4cfb-4b6d-9abf-78084b49216b" />
 
 
 cat > file22
-```
-1001 | Ram | 10000 | HR
-1001 | Ram | 10000 | HR
-1002 | tom |  5000 | Admin
-1003 | Joe |  7000 | Developer
-1005 | Sam |  5000 | HR
-1004 | Sit |  7000 | Dev
-``` 
+<img width="347" height="215" alt="image" src="https://github.com/user-attachments/assets/4fa3fdac-e312-4abc-98ee-dc609abffd99" />
+
 uniq file22
 ## OUTPUT
+<img width="405" height="182" alt="image" src="https://github.com/user-attachments/assets/b98a314f-9c21-4a02-ae41-891797318c76" />
 
 
 
@@ -346,34 +337,31 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+<img width="532" height="248" alt="image" src="https://github.com/user-attachments/assets/8307e4c2-a066-49dc-957d-070076a6901b" />
 
 cat < urllist.txt
-```
-www. yahoo. com
-www. google. com
-www. mrcet.... com
-^d
- ```
+<img width="385" height="175" alt="image" src="https://github.com/user-attachments/assets/5889ff5c-9dc0-4ca4-b0b3-4a802b74eb31" />
+
 cat > urllist.txt
-```
-www. yahoo. com
-www. google. com
-www. mrcet.... com
- ```
+<img width="376" height="165" alt="image" src="https://github.com/user-attachments/assets/690e43f8-94aa-4898-9d10-d75313e9f192" />
+
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
+<img width="422" height="176" alt="image" src="https://github.com/user-attachments/assets/5fd85f38-d35b-47e9-a7ae-f89b5c29c7a7" />
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
+<img width="560" height="181" alt="image" src="https://github.com/user-attachments/assets/51aac949-dce5-480b-b854-2858f8af1787" />
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
 
+<img width="816" height="603" alt="image" src="https://github.com/user-attachments/assets/3474e732-ebaf-4d41-9ed5-ff560ff7f3c2" />
 
 mkdir backupdir
  
@@ -384,77 +372,37 @@ cd backupdir
 tar -tvf backup.tar
 ## OUTPUT
 
+<img width="835" height="552" alt="image" src="https://github.com/user-attachments/assets/82dc3fb4-5368-4058-af6e-be1f46b5505d" />
 
 tar -xvf backup.tar
 ## OUTPUT
-
-gzip backup.tar
-
-ls .gz
-## OUTPUT
- 
-gunzip backup.tar.gz
-## OUTPUT
+<img width="742" height="601" alt="image" src="https://github.com/user-attachments/assets/c5f417ab-63e8-4634-8dd6-2ed7e1af6703" />
 
  
 # Shell Script
-```
-echo '#!/bin/sh' > my-script.sh
-echo 'echo Hello World‘; exit 0 >> my-script.sh
-```
+
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
 
- 
+<img width="513" height="152" alt="image" src="https://github.com/user-attachments/assets/78d97492-fc6d-40c4-aae5-8bbabaed4846" />
+
+
 cat << stop > herecheck.txt
-```
-hello in this world
-i cant stop
-for this non stop movement
-stop
-```
+<img width="397" height="152" alt="image" src="https://github.com/user-attachments/assets/7376ba17-e8b0-47e3-99db-f212fa04bbcb" />
+
 
 cat herecheck.txt
 ## OUTPUT
+<img width="367" height="161" alt="image" src="https://github.com/user-attachments/assets/15d5ccbd-8f58-49d6-a0e9-9f538e09871c" />
 
 
 cat < scriptest.sh 
-```bash
-\#!/bin/sh
-echo “File name is $0 ”
-echo "File name is " `basename $0`
-echo “First arg. is ” $1
-echo “Second arg. is ” $2
-echo “Third arg. is ” $3
-echo “Fourth arg. is ” $4
-echo 'The $@ is ' $@
-echo 'The $\# is ' $1#
-echo 'The $$ is ' $$
-ps
-^d
- ```
+<img width="428" height="465" alt="image" src="https://github.com/user-attachments/assets/2d1cd390-3267-43da-92df-919c85465e6e" />
 
-cat scriptest.sh 
-```bash
-\#!/bin/sh
-echo “File name is $0 ”
-echo "File name is " `basename $0`
-echo “First arg. is ” $1
-echo “Second arg. is ” $2
-echo “Third arg. is ” $3
-echo “Fourth arg. is ” $4
-echo 'The $@ is ' $@
-echo 'The $\# is ' $\#
-echo 'The $$ is ' $$
-ps
-```
  
-chmod 777 scriptest.sh
- 
-./scriptest.sh 1 2 3
+<img width="375" height="117" alt="image" src="https://github.com/user-attachments/assets/e90a7f75-a42c-4d06-8ede-7d4337c3ec7c" />
 
-## OUTPUT
 
  
 ls file1
