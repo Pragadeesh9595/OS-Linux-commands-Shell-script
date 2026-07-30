@@ -70,9 +70,15 @@ diff file1 file2
 ### Create the following files file11, file22 as follows:
 
 cat > file11
+
+## OUTPUT
+
 <img width="481" height="331" alt="Screenshot 2026-07-29 084509" src="https://github.com/user-attachments/assets/22834a24-48af-4125-af08-252e16a1c123" />
 
 cat > file22
+
+## OUTPUT
+
 <img width="457" height="160" alt="Screenshot 2026-07-29 085011" src="https://github.com/user-attachments/assets/4ff249fb-b8f3-43a1-9710-1850a724cd43" />
 
 
@@ -97,7 +103,9 @@ cut -d "|" -f 2 file22
 
 
 cat < newfile 
+
 <img width="313" height="157" alt="image" src="https://github.com/user-attachments/assets/d6e3ca35-4ad8-4bcb-befc-cdf38fc4e7ef" />
+## OUTPUT
 
 cat > newfile 
 <img width="306" height="132" alt="image" src="https://github.com/user-attachments/assets/4a8547d2-f122-4ce4-889f-da3b43cb4b08" />
@@ -141,15 +149,16 @@ grep -R ubuntu /etc
 
 
 
-grep -w -n world newfile   
-## OUTPUT
+
+cat < newfile
 
 
-cat < newfile 
 <img width="320" height="175" alt="image" src="https://github.com/user-attachments/assets/ecec9c92-2683-42ab-8578-c962858502ec" />
 
 
 cat > newfile
+
+
 <img width="350" height="180" alt="image" src="https://github.com/user-attachments/assets/e1fd0170-fdf5-4f86-8398-56d01a93f905" />
 
 egrep -w 'Hello|hello' newfile 
@@ -390,6 +399,8 @@ chmod 755 my-script.sh
 
 
 cat << stop > herecheck.txt
+## OUTPUT
+
 <img width="397" height="152" alt="image" src="https://github.com/user-attachments/assets/7376ba17-e8b0-47e3-99db-f212fa04bbcb" />
 
 
@@ -399,6 +410,8 @@ cat herecheck.txt
 
 
 cat < scriptest.sh 
+## OUTPUT
+
 <img width="428" height="465" alt="image" src="https://github.com/user-attachments/assets/2d1cd390-3267-43da-92df-919c85465e6e" />
 
  
@@ -444,6 +457,8 @@ echo "$val1 is less than $val2"
 fi
 ^d
 ```
+## OUTPUT
+
 <img width="517" height="287" alt="image" src="https://github.com/user-attachments/assets/2d128d4f-2305-42c2-a87e-165617cb9e30" />
 
 
