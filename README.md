@@ -1050,6 +1050,7 @@ fi
 ## OUTPUT 
 
 <img width="592" height="612" alt="image" src="https://github.com/user-attachments/assets/ec25566a-9665-4a7d-8ba1-70afbaa1de78" />
+<img width="431" height="182" alt="image" src="https://github.com/user-attachments/assets/5516911a-2879-4a46-ae7b-70ae14fb22ed" />
 
 # RESULT:
 The Commands are executed successfully.
